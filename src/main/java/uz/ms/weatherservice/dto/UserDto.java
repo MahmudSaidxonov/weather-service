@@ -7,6 +7,7 @@ import uz.ms.weatherservice.security.UserRole;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class UserDto {
     private Integer id;
     private String firstName;
